@@ -6,7 +6,7 @@ app.get("/", async (req, res) => {
   
 
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "",
   });
   const openai = new OpenAIApi(configuration);
 
